@@ -10,29 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ImageView4"
+            android:exported="false"
+            android:parentActivityName=".Contact"/>
+        <activity
+            android:name=".ImageView3"
+            android:exported="false"
+            android:parentActivityName=".Contact"/>
+        <activity
+            android:name=".ImageView2"
+            android:exported="false"
+            android:parentActivityName=".Contact"/>
+        <activity
+            android:name=".ImageView1"
+            android:exported="false"
+            android:parentActivityName=".Contact"/>
+        <activity
             android:name=".pic_6"
             android:exported="false"
-            android:parentActivityName=".Dashboard"/>
+            android:parentActivityName=".Dashboard" />
         <activity
             android:name=".pic_5"
             android:exported="false"
-            android:parentActivityName=".Dashboard"/>
+            android:parentActivityName=".Dashboard" />
         <activity
             android:name=".pic_4"
             android:exported="false"
-            android:parentActivityName=".Dashboard"/>
+            android:parentActivityName=".Dashboard" />
         <activity
             android:name=".pic_3"
             android:exported="false"
-            android:parentActivityName=".Dashboard"/>
+            android:parentActivityName=".Dashboard" />
         <activity
             android:name=".pic_2"
             android:exported="false"
-            android:parentActivityName=".Dashboard"/>
+            android:parentActivityName=".Dashboard" />
         <activity
             android:name=".pic_1"
             android:exported="false"
-            android:parentActivityName=".Dashboard"/>
+            android:parentActivityName=".Dashboard" />
         <activity
             android:name=".Contact"
             android:exported="false"
@@ -47,7 +63,7 @@
         <activity
             android:name=".Requirement"
             android:exported="false"
-            android:parentActivityName=".Dashboard"/>
+            android:parentActivityName=".Dashboard" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
