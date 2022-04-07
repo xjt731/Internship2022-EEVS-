@@ -84,18 +84,18 @@ public class Contact extends AppCompatActivity {
         imageview3 = findViewById(R.id.imageView3);
         imageview4 = findViewById(R.id.imageView4);
 
-        imageview1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Contact.this, ImageView1.class);
-                startActivity(intent);
-            }
-        });
+//        imageview1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(Contact.this, ImageView1.class);
+//                startActivity(intent);
+//            }
+//        });
 
         imageview2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Contact.this, ImageView1.class);
+                Intent intent = new Intent(Contact.this, ImageView2.class);
                 startActivity(intent);
             }
         });
@@ -103,7 +103,7 @@ public class Contact extends AppCompatActivity {
         imageview3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Contact.this, ImageView1.class);
+                Intent intent = new Intent(Contact.this, ImageView3.class);
                 startActivity(intent);
             }
         });
@@ -111,7 +111,7 @@ public class Contact extends AppCompatActivity {
         imageview4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Contact.this, ImageView1.class);
+                Intent intent = new Intent(Contact.this, ImageView4.class);
                 startActivity(intent);
             }
         });
